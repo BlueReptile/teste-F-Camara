@@ -1,0 +1,308 @@
+.fundo-laranja {
+    background-color: #F36C37;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.fundo-roxo {
+    background-color: #573791;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.fundo-cinza {
+    background-color: #212121;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.responsive {
+    width: 125%;
+    height: auto;
+    z-index: 1 !important;
+}
+
+.dots {
+    position: relative;
+    left: 66%;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    width: 35%;
+    z-index: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.logo {
+    margin-top: 15%;
+    margin-left: 10%;
+    width: 50%;
+    height: auto;
+}
+
+.titulo1 {
+    margin-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vw;
+    color: white;
+    font-weight: 300;
+    white-space: nowrap;
+    letter-spacing: 0.1em;
+}
+
+.titulo2 {
+    margin-top: -10%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 7vw;
+    color: #F36C37;
+    -webkit-text-stroke: 0.1vw white;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.titulo3 {
+    margin-top: -10%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6vw;
+    color: white;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.titulo4 {
+    margin-top: 0%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+    color: white;
+    font-weight: 700;
+}
+
+.textbox {
+    margin-top: -20%;
+    margin-left: 55%;
+    background-color: #C4572C;
+    border-width: 1vw;
+    border-style: solid;
+    border-color: #C4572C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    color: white;
+    font-weight: 500;
+    white-space: nowrap;
+    letter-spacing: 0.3em;
+    float: inherit;
+    white-space: nowrap;
+}
+
+.dots2 {
+    width: 290%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: -180%;
+    margin-top: 100%
+}
+
+
+
+.botao {
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 0%;
+    padding: 1vw;
+    border-width: 0.3vw;
+    border-style: solid;
+    border-color: white;
+    border-radius: 0.9vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+    color: white;
+    font-weight: 800;
+    white-space: nowrap;
+    letter-spacing: 0.3em;
+    float: inherit;
+    white-space: nowrap;
+    z-index: 5;
+}
+
+.botao2 {
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 0%;
+    padding: 1vw;
+    border-width: 0.3vw;
+    border-style: solid;
+    border-color: #F36C37;
+    background: #F36C37;
+    border-radius: 0.9vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+    color: white;
+    font-weight: 800;
+    white-space: nowrap;
+    letter-spacing: 0.3em;
+    float: inherit;
+    white-space: nowrap;
+    z-index: 5;
+}
+
+.moca {
+    margin-top: -25%;
+    margin-left: -10%;
+    width: 100% !important;
+}
+
+.sobre {
+    margin-left: -10%;
+    font-size: 3vw;
+    font-weight: 800;
+    margin-top: 10%;
+}
+
+.trilha {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3.5vw;
+    font-weight: 700;
+    margin-top: 6%;
+    text-align: center;
+}
+
+.zigzag {
+    margin-top: -8%;
+    margin-left: 22%;
+    width: 8vw;
+    height: 8vw;
+    background-color: #F36C37;
+    -webkit-mask: url(images/zigzag.svg) no-repeat center;
+    mask: url(images/zigzag.svg) no-repeat center;
+}
+
+.zigzag2 {
+    margin-top: -3%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8vw;
+    height: 8vw;
+    background-color: white;
+    -webkit-mask: url(images/zigzag.svg) no-repeat center;
+    mask: url(images/zigzag.svg) no-repeat center;
+}
+
+.texto3{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2vw;
+    width: 80%;
+}
+
+.circulo{
+    width: 5.5vw;
+    height: 5.5vw;
+    font-size: 3.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 0.2vw;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+    border-radius: 100%;
+}
+.linha{
+    width: 150%;
+    margin-top: 65%;
+    margin-left: -5%;
+    border-color: white;
+    border-style: solid;
+    border-width: 0.1vw;
+    background-color: white;
+}
+
+.etapaTitulo{
+    width: 5.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 40%;
+    font-size: 1vw;
+    font-weight: 550;
+    white-space: nowrap;
+}
+
+.etapaSubTitulo{
+    width: 5.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: -5%;
+    font-size: 0.8vw;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 600px) {
+    .texto {
+        text-align: center;
+        margin-left: -40%;
+        font-size: 1.2vw;
+    }
+    .texto2 {
+        margin-top:3%;
+        margin-bottom: 3%;
+        text-align: center;
+        margin-left: -40%;
+        font-size: 1.2vw;
+        font-weight: 800;
+
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .texto {
+        text-align: center;
+        margin-left: -40%;
+        font-size: 0.9vw;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .texto {
+        text-align: center;
+        margin-left: -40%;
+        font-size: 0.9vw;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .texto {
+        text-align: center;
+        margin-left: -40%;
+        font-size: 0.9vw;
+    }
+    .texto2 {
+        margin-top:3%;
+        margin-bottom: 3%;
+        text-align: center;
+        margin-left: -40%;
+        font-size: 1.3vw;
+        font-weight: 800;
+    }
+}
