@@ -13,6 +13,4 @@ Evitei usar style no HTML e preferi criar classes CSS para aplicar estilos.
 
 Algumas animações simples com CSS nos botões e nos circulos das etapas.
 
-WIP
-
-Animações de Scroll, ainda não implementei nenhuma.
+Uma janela de alerta aparece ao chegar ao final da pagina para pedir feedback.
