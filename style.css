@@ -32,7 +32,6 @@ html {
 .responsive {
     width: 125%;
     height: auto;
-    z-index: 1 !important;
 }
 
 .dots {
@@ -72,6 +71,16 @@ html {
     font-family: 'Montserrat', sans-serif;
     font-size: 7vw;
     color: #F36C37;
+    -webkit-text-stroke: 0.1vw white;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.titulo2:hover {
+    margin-top: -10%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 7vw;
+    color: white;
     -webkit-text-stroke: 0.1vw white;
     font-weight: 700;
     white-space: nowrap;
@@ -141,6 +150,26 @@ html {
     z-index: 5;
 }
 
+.botao:hover {
+    position: absolute;
+    margin-top: -0.5%;
+    margin-left: -1%;
+    padding: 1.2vw;
+    border-width: 0.4vw;
+    border-style: solid;
+    border-color: white;
+    border-radius: 0.9vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2vw;
+    color: white;
+    font-weight: 800;
+    white-space: nowrap;
+    letter-spacing: 0.3em;
+    float: inherit;
+    white-space: nowrap;
+    z-index: 5;
+}
+
 .botao2 {
     position: absolute;
     margin-top: 3%;
@@ -153,6 +182,27 @@ html {
     border-radius: 0.9vw;
     font-family: 'Montserrat', sans-serif;
     font-size: 2vw;
+    color: white;
+    font-weight: 800;
+    white-space: nowrap;
+    letter-spacing: 0.3em;
+    float: inherit;
+    white-space: nowrap;
+    z-index: 5;
+}
+
+.botao2:hover {
+    position: absolute;
+    margin-top: 2.5%;
+    margin-left: -1%;
+    padding: 1.2vw;
+    border-width: 0.4vw;
+    border-style: solid;
+    border-color: #F36C37;
+    background: #F36C37;
+    border-radius: 1vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2vw;
     color: white;
     font-weight: 800;
     white-space: nowrap;
@@ -226,6 +276,22 @@ html {
     text-align: center;
     border-radius: 100%;
 }
+
+.circulo:hover{
+    width: 5.5vw;
+    height: 5.5vw;
+    font-size: 3.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 0.2vw;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    color:#F36C37;
+    text-align: center;
+    border-radius: 100%;
+}
+
 .linha{
     width: 150%;
     margin-top: 65%;
